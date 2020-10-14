@@ -1,9 +1,12 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
+---
 one:
-  title: MyString
-  content: MyText
+  title: Post 1
+  content: post 1 content
 
 two:
-  title: MyString
-  content: MyText
+  title: Post 2
+  content: post 2 content
+
+three:
+  title: Post 3
+  content: post 3 content
