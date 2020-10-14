@@ -918,11 +918,6 @@
   dependencies:
     spark-md5 "^3.0.0"
 
-"@rails/ujs@^6.1.4-1":
-  version "6.1.4-1"
-  resolved "https://registry.nlark.com/@rails/ujs/download/@rails/ujs-6.1.4-1.tgz#37507fe288a1c7c3a593602aa4dea42e5cb5797f"
-  integrity sha1-N1B/4oihx8Olk2AqpN6kLly1eX8=
-
 "@rails/webpacker@^5.4.3":
   version "5.4.3"
   resolved "https://registry.nlark.com/@rails/webpacker/download/@rails/webpacker-5.4.3.tgz#cfe2d8faffe7db5001bad50a1534408b4f2efb2f"
@@ -3791,6 +3786,16 @@ jest-worker@^26.5.0:
     "@types/node" "*"
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
+
+jquery-ujs@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.nlark.com/jquery-ujs/download/jquery-ujs-1.2.3.tgz#dcac6026ab7268e5ee41faf9d31c997cd4ddd603"
+  integrity sha1-3KxgJqtyaOXuQfr50xyZfNTd1gM=
+
+jquery@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.npm.taobao.org/jquery/download/jquery-3.6.0.tgz?cache=0&sync_timestamp=1614705221099&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fjquery%2Fdownload%2Fjquery-3.6.0.tgz#c72a09f15c1bdce142f49dbf1170bdf8adac2470"
+  integrity sha1-xyoJ8Vwb3OFC9J2/EXC9+K2sJHA=
 
 js-tokens@^4.0.0:
   version "4.0.0"
