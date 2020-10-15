@@ -1,1 +1,1 @@
-document.getElementById("post-tr-form-<%= @post.id -%>").innerHTML = '<%= j render(partial: "tr_form", locals: { post: @post }) -%>';
+document.getElementById("post-tr-form-<%= @post.id -%>").innerHTML = '<%= j render(partial: "tr_form_inner", locals: { post: @post }) -%>';

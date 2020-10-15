@@ -1,0 +1,7 @@
+  <td><%= text_field_tag :'post[title]', post.title, id: nil %></td>
+  <td><%= text_field_tag :'post[content]', post.content, id: nil %></td>
+  <td><%= post.updated_at -%></td>
+  <td><%= link_to 'Show', post %></td>
+  <td><%= link_to 'Edit', edit_post_path(post) %></td>
+  <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  <td><input type="submit" name="commit" value="Update Post" data-disable-with="Updateing Post"></td>
