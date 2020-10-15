@@ -14,9 +14,11 @@
 
   <tbody>
     <% @posts.each do |post| %>
-      <tr id="post-tr-form-<%= post.id -%>">
-        <%= render partial: 'tr_form', locals: { post: post } %>
-      </tr>
+      <%= form_with model: post do |_f| %>
+        <tr id="post-tr-form-<%= post.id -%>">
+          <%= render partial: 'tr_form_inner', locals: { post: post } %>
+        </tr>
+      <% end %>
     <% end %>
   </tbody>
 </table>

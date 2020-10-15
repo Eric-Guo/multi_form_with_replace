@@ -1,9 +1,0 @@
-<%= form_with model: post do |f| %>
-  <td><%= f.text_field :title %></td>
-  <td><%= f.text_field :content %></td>
-  <td><%= post.updated_at -%></td>
-  <td><%= link_to 'Show', post %></td>
-  <td><%= link_to 'Edit', edit_post_path(post) %></td>
-  <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  <td><%= f.submit %></td>
-<% end %>
