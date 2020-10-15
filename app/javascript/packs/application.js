@@ -15,3 +15,11 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+window.Dom = class Dom {
+  static ajaxComplete(callback) {
+    return document.addEventListener("ajax:before", function(event) {
+      return event.target.addEventListener("ajax:complete", callback);
+    });
+  }
+};
