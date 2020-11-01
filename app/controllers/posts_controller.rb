@@ -38,7 +38,7 @@ class PostsController < ApplicationController
         format.html { render :edit }
         format.json { render json: @post.errors, status: :unprocessable_entity }
       end
-      format.js { render }
+      format.js { render partial: 'tr_form', locals: { post: @post }, content_type: 'text/html' }
     end
   end
 
@@ -51,6 +51,7 @@ class PostsController < ApplicationController
   end
 
   private
+
     def set_post
       @post = Post.find(params[:id])
     end
