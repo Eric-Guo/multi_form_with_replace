@@ -1,6 +1,6 @@
-<%= form_with model: post do |f| %>
-  <td><%= f.text_field :title %></td>
-  <td><%= f.text_field :content %></td>
+<%= form_with model: post, data: { controller: 'remote', action: 'ajax:success->remote#replaceInner', 'remote-load-scripts': true, 'remote-response-target': "#post-tr-form-#{post.id}" } do |f| %>
+  <td><%= f.text_field :title, id: nil %></td>
+  <td><%= f.text_field :content, id: nil %></td>
   <td><%= post.updated_at -%></td>
   <td><%= link_to 'Show', post %></td>
   <td><%= link_to 'Edit', edit_post_path(post) %></td>

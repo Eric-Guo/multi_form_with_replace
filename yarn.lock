@@ -918,6 +918,11 @@
   dependencies:
     spark-md5 "^3.0.0"
 
+"@rails/ujs@^6.0.2":
+  version "6.1.4"
+  resolved "https://registry.nlark.com/@rails/ujs/download/@rails/ujs-6.1.4.tgz#093d5341595a02089ed309dec40f3c37da7b1b10"
+  integrity sha1-CT1TQVlaAgie0wnexA88N9p7GxA=
+
 "@rails/ujs@^6.1.4-1":
   version "6.1.4-1"
   resolved "https://registry.nlark.com/@rails/ujs/download/@rails/ujs-6.1.4-1.tgz#37507fe288a1c7c3a593602aa4dea42e5cb5797f"
@@ -925,7 +930,7 @@
 
 "@rails/webpacker@^5.4.3":
   version "5.4.3"
-  resolved "https://registry.nlark.com/@rails/webpacker/download/@rails/webpacker-5.4.3.tgz#cfe2d8faffe7db5001bad50a1534408b4f2efb2f"
+  resolved "https://registry.npmmirror.com/@rails/webpacker/download/@rails/webpacker-5.4.3.tgz#cfe2d8faffe7db5001bad50a1534408b4f2efb2f"
   integrity sha1-z+LY+v/n21AButUKFTRAi08u+y8=
   dependencies:
     "@babel/core" "^7.15.0"
@@ -966,6 +971,30 @@
     webpack-assets-manifest "^3.1.1"
     webpack-cli "^3.3.12"
     webpack-sources "^1.4.3"
+
+"@stimulus/core@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.npm.taobao.org/@stimulus/core/download/@stimulus/core-2.0.0.tgz#140c85318d6a8a8210c0faf182223b8459348877"
+  integrity sha1-FAyFMY1qioIQwPrxgiI7hFk0iHc=
+  dependencies:
+    "@stimulus/mutation-observers" "^2.0.0"
+
+"@stimulus/multimap@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.nlark.com/@stimulus/multimap/download/@stimulus/multimap-2.0.0.tgz#420cfa096ed6538df4a91dbd2b2842c1779952b2"
+  integrity sha1-Qgz6CW7WU430qR29KyhCwXeZUrI=
+
+"@stimulus/mutation-observers@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.npm.taobao.org/@stimulus/mutation-observers/download/@stimulus/mutation-observers-2.0.0.tgz#3dbe37453bda47a6c795a90204ee8d77a799fb87"
+  integrity sha1-Pb43RTvaR6bHlakCBO6Nd6eZ+4c=
+  dependencies:
+    "@stimulus/multimap" "^2.0.0"
+
+"@stimulus/webpack-helpers@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.npm.taobao.org/@stimulus/webpack-helpers/download/@stimulus/webpack-helpers-2.0.0.tgz#54296d2a2dffd4f962d2e802d99a3fdd84b8845f"
+  integrity sha1-VCltKi3/1Pli0ugC2Zo/3YS4hF8=
 
 "@types/glob@^7.1.1":
   version "7.2.0"
@@ -6195,6 +6224,23 @@ static-extend@^0.1.1:
   version "1.5.0"
   resolved "https://registry.npm.taobao.org/statuses/download/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
+
+stimulus-remote@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.npmmirror.com/stimulus-remote/download/stimulus-remote-2.2.1.tgz#567316fc8ad7776a6ed9a013c92f13c7e00bdf52"
+  integrity sha1-VnMW/IrXd2pu2aATyS8Tx+AL31I=
+  dependencies:
+    "@rails/ujs" "^6.0.2"
+    lodash.debounce "^4.0.8"
+    stimulus "~1.1.1||~2.0"
+
+stimulus@^2.0.0, stimulus@~1.1.1||~2.0:
+  version "2.0.0"
+  resolved "https://registry.npmmirror.com/stimulus/download/stimulus-2.0.0.tgz#713c8b91a72ef90914b90955f0e705f004403047"
+  integrity sha1-cTyLkacu+QkUuQlV8OcF8ARAMEc=
+  dependencies:
+    "@stimulus/core" "^2.0.0"
+    "@stimulus/webpack-helpers" "^2.0.0"
 
 stream-browserify@^2.0.1:
   version "2.0.2"
