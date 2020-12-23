@@ -1,4 +1,4 @@
-<%= form_with model: post do |f| %>
+<%= form_with model: post, local: false do |f| %>
   <td><%= f.text_field :title %></td>
   <td><%= f.text_field :content %></td>
   <td><%= post.updated_at -%></td>
