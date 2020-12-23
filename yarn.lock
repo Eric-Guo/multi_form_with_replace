@@ -850,22 +850,22 @@
   dependencies:
     mkdirp "^1.0.4"
 
-"@rails/actioncable@^6.0.0":
-  version "6.0.3"
-  resolved "https://registry.npm.taobao.org/@rails/actioncable/download/@rails/actioncable-6.0.3.tgz#722b4b639936129307ddbab3a390f6bcacf3e7bc"
-  integrity sha1-citLY5k2EpMH3bqzo5D2vKzz57w=
+"@rails/actioncable@^6.1.0":
+  version "6.1.0"
+  resolved "https://registry.npm.taobao.org/@rails/actioncable/download/@rails/actioncable-6.1.0.tgz#f336f25450b1bc43b99bc60557a70b6e6bb1d3d2"
+  integrity sha1-8zbyVFCxvEO5m8YFV6cLbmux09I=
 
-"@rails/activestorage@^6.0.0":
-  version "6.0.3"
-  resolved "https://registry.npm.taobao.org/@rails/activestorage/download/@rails/activestorage-6.0.3.tgz#401d2a28ecb7167cdb5e830ffddaa17c308c31aa"
-  integrity sha1-QB0qKOy3FnzbXoMP/dqhfDCMMao=
+"@rails/activestorage@^6.1.0":
+  version "6.1.0"
+  resolved "https://registry.npm.taobao.org/@rails/activestorage/download/@rails/activestorage-6.1.0.tgz#e8d42c4e275f6b0cef2a888728b47300a87a1047"
+  integrity sha1-6NQsTidfawzvKoiHKLRzAKh6EEc=
   dependencies:
     spark-md5 "^3.0.0"
 
-"@rails/ujs@^6.0.0":
-  version "6.0.3"
-  resolved "https://registry.npm.taobao.org/@rails/ujs/download/@rails/ujs-6.0.3.tgz#e68a03278e30daea6a110aac5dfa33c60c53055d"
-  integrity sha1-5ooDJ44w2upqEQqsXfozxgxTBV0=
+"@rails/ujs@^6.1.0":
+  version "6.1.0"
+  resolved "https://registry.npm.taobao.org/@rails/ujs/download/@rails/ujs-6.1.0.tgz#9a48df6511cb2b472c9f596c1f37dc0af022e751"
+  integrity sha1-mkjfZRHLK0csn1lsHzfcCvAi51E=
 
 "@rails/webpacker@4.3.0":
   version "4.3.0"
