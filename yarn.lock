@@ -936,11 +936,6 @@
   dependencies:
     spark-md5 "^3.0.0"
 
-"@rails/ujs@^6.1.4-1":
-  version "6.1.4-1"
-  resolved "https://registry.nlark.com/@rails/ujs/download/@rails/ujs-6.1.4-1.tgz#37507fe288a1c7c3a593602aa4dea42e5cb5797f"
-  integrity sha1-N1B/4oihx8Olk2AqpN6kLly1eX8=
-
 "@rails/webpacker@^5.4.3":
   version "5.4.3"
   resolved "https://registry.npmmirror.com/@rails/webpacker/download/@rails/webpacker-5.4.3.tgz#cfe2d8faffe7db5001bad50a1534408b4f2efb2f"
