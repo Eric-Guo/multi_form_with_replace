@@ -3,6 +3,7 @@ class PostsController < ApplicationController
 
   def index
     @posts = Post.all
+    @turbo_visit_reload = true
   end
 
   def show

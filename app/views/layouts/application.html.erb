@@ -7,6 +7,9 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', data: { 'turbolinks-track': 'reload' } %>
     <%= javascript_pack_tag 'application', data: { 'turbolinks-track': 'reload' } %>
+    <% if @turbo_visit_reload %>
+      <meta name="turbo-visit-control" content="reload">
+    <% end %>
   </head>
 
   <body>
