@@ -22,3 +22,8 @@
 <br>
 
 <%= link_to 'New Post', new_post_path %>
+<br />
+
+<%= turbo_frame_tag "refresh_timer" do %>
+  <%= Time.now %>
+<% end %>

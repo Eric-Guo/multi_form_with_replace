@@ -3,3 +3,10 @@
     <%= render partial: 'tr_form.html', locals: { post: @post } %>
   </template>
 </turbo-stream>
+<turbo-stream action="replace" target="refresh_timer">
+  <template>
+    <%= turbo_frame_tag "refresh_timer" do %>
+      <%= Time.now %>
+    <% end %>
+  </template>
+</turbo-stream>
